@@ -8,7 +8,7 @@ c=[]
 capc=3
 storedc=0
 while True:
-    print(a, "\n", b, "\n", c, "\na capacity = 5, b capacity = 7, c capacity = 3")
+    print(a,storeda, "\n", b,storedb, "\n", c,storedc, "\na capacity = 5, b capacity = 7, c capacity = 3")
     d=int(input("What you wanna do, 1 for put item, 2 for take item, 3 to exit"))
     if d==1:
         e=input("What kind of item you want to put?")
